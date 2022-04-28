@@ -1,0 +1,95 @@
+body {
+    background-color: #eee;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+  }
+  /* navbar */
+  .navbar {
+    font-family: "Gemunu Libre", sans-serif;
+  }
+  /* end navbar */
+  
+  /* jumbotron */
+  .jumbotron {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+  }
+  /* end jumbotron */
+
+  /* cart */
+  .cart {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+  }
+/* end cart */
+  
+  /* dekstop */
+  @media (min-width: 992px) {
+    /* Nav */
+    .navbar-brand,
+    .nav-link {
+      color: #ddd !important;
+      z-index: 10;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+  
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #0004ff;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+    /* End nav */
+  
+    /* jumbotron */
+    .jumbotron {
+      height: 700px;
+      margin-top: -70px;
+    }
+    /* end jumbotron */
+  
+    /* Card */
+    .tiga .card {
+      width: 270px !important;
+    }
+    /* end card */
+  }
+  /* dekstop */
+  
+  /* card */
+   .tiga .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tiga .card {
+    color: #333;
+    width: 160px;
+  }
+  
+  .tiga .card h4,
+  h6 {
+    padding: 5px 10px 0 10px;
+  }
+  /* end card */
+  
+  /* footer */
+  footer {
+    background-color: rgb(115, 115, 119);
+    color: #fff;
+  }
+  
+  .row {
+    position: relative !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  /* end footer */
+  

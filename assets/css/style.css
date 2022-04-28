@@ -1,0 +1,146 @@
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+}
+/* navbar */
+.navbar {
+  font-family: "Gemunu Libre", sans-serif;
+}
+
+/* end navbar */
+
+/* cart */
+.cart {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+/* end cart */
+
+  /* card icon */
+  .tiga a .card-icon {
+    width: 150px !important;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tiga a .card-icon i {
+    margin: auto;
+    color: #333;
+  }
+
+  .tiga a .tinggi {
+    height: 295px;
+  }
+  /* end card icon */
+
+/* Dekstop */
+@media (min-width: 992px) {
+    /* Nav */
+    .navbar-brand,
+    .nav-link {
+      color: #ddd !important;
+      z-index: 10;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    }
+  
+    .nav-link:hover::after {
+      content: "";
+      display: block;
+      border-bottom: 3px solid #0004ff;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+    }
+    /* End nav */
+
+  /* Slider */
+  .carousel-inner {
+    margin-top: -70px;
+    height: 700px;
+  }
+  /* end slider */
+
+  
+  /* Nav */
+  .navbar {
+    color: #333;
+  }
+  /* End nav */
+
+    /* card icon */
+    .tiga a .card-icon {
+      width: 270px !important;
+      background-color: #eee;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .tiga a .card-icon i {
+      margin: auto;
+      color: #333;
+    }
+  
+    .tiga a .tinggi {
+      height: 380px;
+    }
+    /* end card icon */
+
+  /* Card */
+  .tiga .card {
+    width: 270px !important;
+  }
+  /* end card */
+
+  /* gender */
+  .empat .card {
+    width: 400px !important;
+  }
+  /* end gender */
+}
+/* end desktop */
+
+/* card */
+.tiga .container {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: auto;
+}
+
+.tiga .card {
+  color: #333;
+  width: 160px;
+}
+
+.tiga .card h4,
+h6 {
+  padding: 5px 10px 0 10px;
+}
+/* end card */
+
+/* gender */
+.empat .card {
+  width: 200px;
+}
+.empat .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* end gender */
+
+/* footer */
+footer {
+  background-color: rgb(146, 146, 151);
+  color: #fff;
+}
+
+.row {
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+/* end footer */
