@@ -27,7 +27,7 @@
           echo "<div class='pesan'>".$error."</div>";
         }
         ?>
-        <div class="body" style="background-image: url(<?php echo base_url("admin/assets/images/")?>Profile.png);"></div>
+        <div class="body" style="background-image: url(<?php echo base_url("admin/assets/images/")?>loginUser.jpg);"></div>
             <?php echo validation_errors(); ?>
             <form action="<?php echo site_url('member/login')?>" method="POST">
                 <div class="grad"></div>

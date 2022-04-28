@@ -20,7 +20,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <!-- My CSS -->
         <link rel="stylesheet" href="<?php echo base_url('assets/css/register/')?>style.css" />
     </head>
-    <body style="background-image: url(<?php echo base_url("admin/assets/images/")?>img.jpg);">
+    <body style="background-image: url(<?php echo base_url("admin/assets/images/")?>register.jpg);">
         <!-- main -->
         <div class="main-w3layouts wrapper">
             <h1>REGISTER</h1>
