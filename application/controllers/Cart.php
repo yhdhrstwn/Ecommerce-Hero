@@ -54,6 +54,7 @@
                 ];
 
                 $this->mcart->updateKeranjang($where, 'cart', $data);
+
                 $respon=[
                     'status' => true,
                     'pesan'  => 'Berhasil Ditambahkan'
@@ -136,7 +137,7 @@
             
             $this->db->where('ID', $Id_barang);
             $harga = $this->db->get('barang')->row()->Harga_barang;
-            
+             
             $insert = array(
                 'Id_barang'   => $Id_barang,
                 'Jumlah'   => 1,
@@ -153,7 +154,7 @@
 
             }else{
                 $status = false;
-                $pesan = "Gagal Dibelu";
+                $pesan = "Gagal Dibeli";
 
             }
 

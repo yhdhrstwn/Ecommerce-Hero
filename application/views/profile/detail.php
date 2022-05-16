@@ -15,12 +15,12 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                    <th>No</th>
-                                    <th>Nama Barang</th>
-                                    <th>Harga Barang</th>
-                                    <th>Jumlah</th>
-                                    <th>Size</th>
-                                    <th>Total</th>
+                                        <th>No</th>
+                                        <th>Nama Barang</th>
+                                        <th>Harga Barang</th>
+                                        <th>Jumlah</th>
+                                        <th>Size</th>
+                                        <th>Total</th>
                                     </tr>
                                 </thead>
                                 <tbody>

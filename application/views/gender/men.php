@@ -39,7 +39,7 @@
       </div>
     </section>
     <!-- end jumbotron -->
-
+ 
     <!-- card -->
     <section class="tiga">
       <!-- shoes -->

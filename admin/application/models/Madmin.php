@@ -25,7 +25,6 @@
     
     public function ambilData($ID){
       $this->db->where('ID', $ID);
-
       $res = $this->db->get('admin');
       return $res->row();
     }
